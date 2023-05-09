@@ -6,10 +6,10 @@ import {navLinks} from "../constants";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className='w-full flex py-[32px] justify-between items-center px-[182px] xl:px-[32px]'>
-      <img src={logo} alt="hoobank" className='w-[234px] md:w-[234px] sm:w-[140px] h-[45.61px] sm:h-[27.52px]'/>
+    <nav className='w-full max-w-[100vw] flex py-[32px] justify-between items-center px-[182px] xl:px-[32px]'>
+      <img src={logo} alt="hoobank" className='max-w-[234px] sm:w-[140px] lg:w-[140px] max-h-[45.61px] sm:h-[27.52px]'/>
 
-      <ul className='list-none flex md:hidden justify-between items-center  '>
+      <ul className='list-none flex md:hidden justify-start items-center  '>
         {navLinks.map((nav,index) => (
           <li
             key={nav.id}

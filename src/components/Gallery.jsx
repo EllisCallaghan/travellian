@@ -27,9 +27,9 @@ const Gallery = () => {
     };
 
     return (
-        <div className='flex items-center h-full my-[140px] mx-[182px] xl:mx-[32px] flex-col gap-[100px]'>
-        <div className='flex flex-row items-end h-[165px]'>
-            <div className=' flex justify-between flex-col gap-[20px] w-[1352px] xl:w-[1172px] lg:w-[884px] md:w-[728px] sm:w-[288px]
+        <div className='flex h-full my-[140px] mx-[182px] xl:mx-[32px] flex-col gap-[100px]'>
+        <div className='flex flex-row items-end justify-between h-[165px]'>
+            <div className=' flex justify-between flex-col gap-[20px] max-w-[1352px] xl:max-w-[1172px] lg:max-w-[884px] md:max-w-[728px] sm:max-w-[288px]
             h-[105px]'>
                 <h1 className='flex font-primary text-[64px] md:text-[54px] sm:text-[40px] leading-[85.31px] md:leading-[72px] sm:leading-[53.32px] text-secondary
                 items-start text-left'>
@@ -51,7 +51,7 @@ const Gallery = () => {
                 </button>
             </div>
         </div>
-        <div className='flex items-start mt-[100px] w-[1556px] xl:w-[1376px] lg:w-[1088px] md:w-[596px] sm:w-[288px]'>
+        <div className='flex items-start mt-[100px] max-w-[1556px] xl:max-w-[1376px] lg:max-w-[1088px] md:max-w-[596px] sm:max-w-[288px]'>
             <div className='flex flex-row  overflow-x-scroll scroll-smooth' ref={scrollRef}>
             <div className='flex flex-row md:flex-col
                 gap-[32px] ' >

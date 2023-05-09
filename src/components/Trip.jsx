@@ -36,10 +36,10 @@ const Trips = [{
 ]
 
 const TripCard = ({id,img,title,index,price,active,handleClick,days}) => (
-    <div className={`relative w-[300px] lg:w-[250px] min-w-[300px] lg:min-w-[250px] md:min-w-[728px] sm:min-w-[288px] : ${
+    <div className={`relative   min-w-[300px] lg:min-w-[250px] md:min-w-[100vw] sm:min-w-[288px] : ${
         active === id ? '': 'my-[73px]'
     }`} onClick={() => handleClick(id)}>
-        <img src={img} alt={title} className=' w-[300px] lg:w-[250px] h-[400px] lg:h-[350px] md:min-w-[728px] sm:min-w-[288px] object-cover rounded-[26px]'/>
+        <img src={img} alt={title} className=' w-[300px] lg:w-[250px] h-[400px] lg:h-[350px] md:min-w-[100vw] sm:min-w-[288px] object-cover rounded-[26px]'/>
         {active !== id ? (<div></div>):(
             <div className='py-[20px] flex gap-[20px] flex-col'>
                 <div className='flex justify-between items-center'>

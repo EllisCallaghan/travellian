@@ -4,10 +4,10 @@ import { facebook, instagram, logo, pinterest, twitter } from '../images'
 
 const Footer = () => {
   return (
-    <div className='max-h-[577px] md:max-h-none flex flex-col items-center pt-[240px] pb-[140px] md:pb-0 px-[182px] sm:px-0 md:py-0 bg-secondary'>
+    <div className='max-h-[577px] max-w-[100vw] md:max-h-none flex flex-col items-center pt-[240px] pb-[140px] md:pb-0 px-[182px] xl:px-[32px] sm:px-0 md:py-0 bg-secondary'>
         <Newsletter className={`translate-y-[-356px] md:translate-y-0 md:w-[100vw] md:flex md:justify-center md:bg-white`}/>
-        <div className='translate-y-[-356px] md:translate-y-0 mt-[117px] md:mt-0 flex w-[1556px] xl:w-[1376px] lg:w-[1088px] md:w-[704px] sm:w-[288px]
-        md:pt-[100px] sm:pt-[80px] md:pb-[140px] sm:pb-[80px] md:gap-[60px] flex-row md:flex-col justify-between'>
+        <div className='translate-y-[-356px] md:translate-y-0 mt-[117px] md:mt-0 flex w-full sm:w-[288px]
+        md:pt-[100px] sm:pt-[80px] md:pb-[140px] sm:pb-[80px] md:gap-[60px] flex-row md:flex-col items-start justify-between'>
             <div className='flex flex-col items-start gap-[16px]'>
                <img src={logo} className='w-[234px] h-[45.61px]'/> 
                <p className='text-white text-left text-[14px] leading-[17px] sm:leading-[16.5px]'>Copyright © Travellian 2020 All rights<br className='hidden sm:block'/> reserved</p>

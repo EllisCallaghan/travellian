@@ -19,7 +19,7 @@ module.exports = {
       'xl':{'max':'1440px'},
       'lg':{'max':'1152px'},
       'md':{'max':'768px'},
-      'sm':{'max':'320px'},
+      'sm':{'max':'560px'},
     }
   },
   plugins: [],
