@@ -8,15 +8,15 @@ export const navLinks = [
       title: "Explore",
     },
     {
-      id: "travel",
-      title: "Travel",
+      id: "awards",
+      title: "Awards",
     },
     {
-      id: "blog",
-      title: "Blog",
+      id: "testimonials",
+      title: "Testimonials",
     },
     {
-      id:"pricing",
-      title:"Pricing",
+      id:"news",
+      title:"News",
     },
   ];
